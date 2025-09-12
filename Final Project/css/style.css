@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#nav-sticky.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000000;
+}
+
+.navbar .nav-link:hover {
+  color: rgb(194, 15, 15);
+}
+
+.accordion-item a:hover {
+  color: rgb(194, 15, 15);
+}
+
+.icon-hover a:hover {
+  color: rgb(194, 15, 15);
+}
+
+a {
+
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.bg-color {
+  background-color: rgb(163, 56, 28);
+
+}
+
+.text-color {
+  color: rgb(194, 15, 15);
+}
+
+.nav-font {
+  font-size: smaller;
+}
+
+.col-6{
+  width: 48%;
+}
+.col-6 ul li a:hover {
+  color: rgb(194, 15, 15);
+}
+
+#carouselExampleIndicators {
+
+  max-height: 600px;
+}
+
+#carouselExampleIndicators .carousel-item,
+#carouselExampleIndicators .carousel-item img {
+  height: 600px;
+
+}
+
+.content-overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  width: 100%;
+  padding: 0 2%;
+
+
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.black-icon {
+  color: gray;
+}
+
+.col-3:hover .fa-solid.black-icon,
+.col-3:hover .fa-regular.black-icon {
+  color: black;
+}
+
+
+.card:hover {
+  box-shadow: 0 4px 10px 0 rgb(203, 194, 194);
+}
+
+.card a:hover {
+  color: rgb(194, 15, 15);
+}
+
+.card .hover-list {
+  display: none;
+}
+
+.card:hover .hover-list {
+  display: block;
+
+}
+
+.owl-carousel .owl-nav {
+  display: none;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 45%;
+}
+
+.owl-carousel:hover .owl-nav {
+  display: flex;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  background-color: white;
+  box-shadow: 0 2px 5px rgb(225, 220, 220);
+  font-size: x-large;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 5px rgba(245, 245, 245);
+}
+
+
+.shop-button:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #dee2e6 !important;
+}
+
+.shop-button-black:hover {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid #dee2e6 !important;
+}
+
+
+.img-scale:hover img {
+  transform: scale(1.1);
+}
+
+.img-scale2:hover img {
+  transform: scale(1.1)
+}
+
+.img-scale3:hover {
+  transform: scale(1.1)
+}
+
+
+.saleoff-hover:hover img {
+  transform: translateY(15px);
+}
+
+.saleoff-hover-button h1:hover {
+  background-color: #eec9c9;
+}
+
+.saleoff-hover-button:hover h1:last-child {
+  background-color: rgb(194, 15, 15) !important;
+}
+
+.green-hover button:hover {
+  background-color: transparent !important;
+  color: green !important;
+}
+
+.shop-hover img:hover {
+  transform: translatex(8px);
+  box-shadow: 0 2px 5px rgba(245, 245, 245);
+}
+
+.brand-hover img:hover {
+  filter: grayscale(100%);
+}
+
+.link-container {
+  position: relative;
+  display: inline-block;
+}
+
+.link-hover:hover {
+  color: rgb(194, 15, 15);
+}
+
+.red-underline {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 130px;
+  height: 2px;
+  background-color: rgb(194, 15, 15);
+  transform: scaleX(0);
+}
+
+.link-container:hover .red-underline {
+  transform: scaleX(1);
+  animation: movingline 0.2s alternate ease 2;
+}
+
+@keyframes movingline {
+  0% {
+    margin-left: 0%;
+  }
+
+  100% {
+    margin-left: 100%;
+
+  }
+}
+
+.col-2 li a:hover {
+  color: rgb(194, 15, 15);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  z-index: 2000;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* contact page */
+.accordion-panel-content {
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.red-button-hover:hover button {
+  background-color: red;
+  border: 0;
+}
+
+.linkwhite a {
+  color: white;
+}
+
+.linkwhite a:hover {
+  color: red;
+}
